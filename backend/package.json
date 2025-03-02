@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "backend": "file:",
     "cors": "^2.8.5",
@@ -19,4 +20,18 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs"
+=======
+  "name": "aicte-internship",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "aicte-internship": "file:",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+>>>>>>> b27af961a96dd61074668580d2744d16862a539a
 }
