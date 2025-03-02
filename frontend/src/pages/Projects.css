@@ -1,0 +1,28 @@
+.projects-container {
+  padding: 20px;
+}
+
+.project-card {
+  border: 1px solid #f7f5f5;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: aliceblue;
+  margin-left: -252px;
+}
+
+.status {
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.status.active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.inactive {
+  background-color: #f8d7da;
+  color: #721c24;
+}
